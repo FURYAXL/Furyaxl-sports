@@ -681,12 +681,7 @@ $(document).ready(function(){
       JSON.stringify(data);     
       JSONstring = JSONstring.replace(/"/g, "&quot;").replace(/'/g, "&apos;");
       
-    var form = 
-      
-      '' + 
-        '<input type="hidden" name="data" value=\'' + 
-          JSONstring + 
-          '\'>' + 
+   
         
       '</form>';
 
