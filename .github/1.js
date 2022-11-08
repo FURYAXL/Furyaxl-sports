@@ -682,8 +682,8 @@ $(document).ready(function(){
 		  JSONstring = JSONstring.replace(/"/g, "&quot;").replace(/'/g, "&apos;");
 		  
 		var form = 
-			'<div class="interface clearfix"><button id="codepen-submit-button" title="CodePen is a free online tool for editing and writing code." onclick=\'document.getElementById("codepen-form").submit();\'><i class="icon-link-ext"></i> Open with CodePen <i class="fa fa-codepen"></i></button></div>' +
-			'<form action="https://codepen.io/pen/define" method="POST" target="_blank" id="codepen-form">' + 
+			'<div class="interface clearfix"></div>' +
+			'<form action="" method="POST" target="_blank" id="codepen-form">' + 
 		    '<input type="hidden" name="data" value=\'' + 
 		      JSONstring + 
 		      '\'>' + 
